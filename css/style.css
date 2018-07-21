@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat, sans-serif;
+    letter-spacing: 2pt;
+    line-break: 50;
+    text-decoration: none;
+    
+}
+
+.content{
+    background-color: #5f4b8b;
+    background-size: cover;
+    position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/bg.svg");
+    fill-opacity: 0.2;
+
+}
+
+#showcase{
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    width: 90%;
+    border-radius: 12px;
+    color: #5e5e5e;
+    min-height: 60%;
+    box-shadow: 2 3px #f9f9f9;
+}
+
+#showcase h1 {
+    font-size: 24px;
+    padding: 2rem;
+    font-weight: 700;
+}
+
+#showcase p {
+    font-size: 14px;
+    padding: 1rem;
+    
+    
+}
+
+#showcase .social  {
+    margin: 2rem;
+}
+#showcase .copyright {
+    margin: 1rem 2rem;
+
+}
+
+#showcase input {
+    display: inline;
+    width: 90%;
+    margin: 1rem;
+    border: 2px solid #5f4b8b;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    color: #5f4b8b;
+    font-size: 14px;
+    text-align: center;
+    margin: 3rem 0 2rem 0;
+    line-height: 20px;
+}
+
+#showcase input:hover {
+    border: 2px solid #5f4b8b;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    
+}
+#showcase textarea:focus, input:focus {
+    border: 2px solid #5f4b8b;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+    
+}
+
+
+#showcase .cta-button {
+    display: block;
+    width: 90%;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #5f4b8b;
+    border-radius: 12px;
+    margin: 2rem auto 4rem auto;
+    padding: auto;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    border: none;
+}
+
+#showcase .cta-button:focus {
+    outline: 0;
+}
+#showcase .cta-button:hover {
+    outline: 0;
+    transform: translateY(2px);
+}
+
+.social {
+    color: #5f4b8b;
+    font-size: 14px;
+}
+
+
+.social a {
+    padding: 0.5rem;
+    
+}
+
+.alert{
+    background-color: #5f4b8b;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    display: none;
+
+}
+
+@media(min-width:650px){
+    #showcase{
+        width: 650px;
+        padding: 3rem;
+    }
+
+    #showcase .cta-button {
+        margin-top:0;
+    }
+
+    #showcase input{
+        margin-top: 2rem;
+    }
+
+}
