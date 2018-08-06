@@ -9,7 +9,7 @@
     
 }
 
-.content{
+.content {
     background-color: #5f4b8b;
     background-size: cover;
     position: center;
@@ -18,12 +18,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("../img/bg.svg");
+    /* background-image: url('../img/bg.svg'); */
     fill-opacity: 0.2;
 
 }
 
-#showcase{
+#showcase {
     align-items: center;
     text-align: center;
     background-color: white;
@@ -56,7 +56,6 @@
 }
 
 #showcase input {
-    display: inline;
     width: 90%;
     margin: 1rem;
     border: 2px solid #5f4b8b;

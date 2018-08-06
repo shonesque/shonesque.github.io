@@ -1,6 +1,27 @@
+let HtmlWebpackPlugin = require('html-webpack-plugin');
+let path = require('path');
+
 module.exports  = {
-    entry: './src/index.js',
+    entry: './src/app.js',
     output: {
-        filename: './dist/index.bundle.js'
-    }
+        path: path.resolve(__dirname, './dist'),
+        filename: 'app.bundle.js'
+    },
+    module: {
+        rules: [
+                {
+                    test: /\.css$/,
+                    use: [ 'style-loader', 'css-loader' ]
+                }
+                
+        ]
+    },
+    plugins: [new HtmlWebpackPlugin({
+        title: 'Portfolio | Cosmin Simion',
+        minify: {
+            collapseWhitespace: true
+        },
+        hash:true,
+        template: 'src/index.html'
+    })]
 }
