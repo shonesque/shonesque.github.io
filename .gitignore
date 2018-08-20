@@ -1,4 +1,4 @@
 node_modules
-/src/scripts/firebase-config.js
+src/scripts/firebase-config.js
 .vscode
 dist
