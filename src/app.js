@@ -1,5 +1,5 @@
-import css from './css/style.css';
-import config from './js/config.js';   
+import css from './styles/style.css';
+import config from './scripts/firebase-config.js';   
 
 console.log('config');
 //reference subscribers collection

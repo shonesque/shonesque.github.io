@@ -1,3 +1,6 @@
 node_modules
 /src/js/config.js
 .vscode
+dist
+*.js
+*.html
