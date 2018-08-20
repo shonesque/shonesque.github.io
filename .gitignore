@@ -1,5 +1,5 @@
 node_modules
-/src/js/config.js
+/src/js/firebase-config.js
 .vscode
 dist
 *.js
